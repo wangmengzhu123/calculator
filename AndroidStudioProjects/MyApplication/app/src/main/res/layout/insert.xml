@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow>
+        <TextView
+            android:id="@+id/textViewWord"
+            android:text="单词:"
+            android:textColor="#0000FF"
+            android:textSize="20dp"/>
+        <EditText
+            android:ems="8"
+            android:id="@+id/txtWord"
+            android:text=""
+            android:layout_width="match_parent" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/textViewMeaning"
+            android:text="含义:"
+            android:textColor="#0000FF"
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/txtMeaning"
+            android:layout_width="match_parent" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textViewSample"
+            android:text="例句:"
+            android:textColor="#0000FF"
+            android:textSize="20dp" />
+
+        <EditText
+            android:text=""
+            android:id="@+id/txtSample"
+            android:layout_width="match_parent" />
+    </TableRow>
+</TableLayout>
